@@ -1,0 +1,2 @@
+<li class="header">Main Menu</li>
+<li <?php if(isset($m_laporan)) { ?>class = "active" <?php } ?>><a href='<?php echo site_url('chart/laporan/detail')?>'><i class="fa fa-circle-o"></i> <span>Laporan Chart</span></a></li>
